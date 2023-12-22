@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Rajdhani:wght@300&display=swap');
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Rajdhani', sans-serif; */
+html{
+font-size: 63%;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.container-fluid{
+    min-height: 70vh;
+    margin-top: 3rem;
+    padding: 2rem;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.col-md-4{
+    text-align: center;
+    display: flex ;
+    flex-direction: column;
+    padding: 1rem 3rem;
+
+}
+#res{
+    color: cornsilk;
+
+}
+.button{
+    padding: 1rem;
+    margin: .5rem;
+    font-size: 1.6rem;
+    color: white;
+    cursor: pointer;
+}
+.button:hover{
+box-shadow: 0px 0px 3rem rgb(255, 255, 255);
+transition: .3s;
+}
+.inputmain{
+    text-align: center;
+}
+.input{
+    width: 45%;
+    padding: 1rem 1.3rem;
+    border-radius: 2rem;
+    border: none;
+    margin: 1rem 0;
+    font-size: 1.6rem;
+
+}
+.resultmain{
+    font-size: 2rem;
+    color: #04f9f9;
+    font-weight: 700;
+}
+@media screen and  (min-width:300px) and (max-width:430px) {
+    html {
+      font-size: 43.5%;
+    }
+    .input{
+        width: 80%;
+    }
+}
+@media screen and  (min-width:430px) and (max-width:575px) {
+    html {
+      font-size: 51%;
+    }
+    .input{
+        width: 80%;
+    }
+}
+@media screen and (min-width:574px) and (max-width:767px) {
+    html {
+      font-size: 56.5%;
+    }
+    .input{
+        width: 80%;
+    }
+}
+@media screen and (min-width:765px) and (max-width:990px) {
+    html {
+      font-size: 58.5%;
+    }
+    .input{
+        width: 80%;
+    }
+}
